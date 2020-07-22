@@ -50,7 +50,7 @@ class Keyboard extends StatelessWidget {
           ),
           ButtonRow([
             Button.big(text: '0', cb: cb),
-            Button(text: ',', cb: cb),
+            Button(text: '.', cb: cb),
             Button.operation(text: '=', cb: cb),
           ]),
         ],
